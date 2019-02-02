@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana;
+}
+
+.title {
+    display: inline;
+    animation: silviu 0.5s infinite alternate;
+}
+
+.menu {
+    display: flex;
+    font-size: 16px;
+    padding: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu span {
+    margin-right: 60px;
+}
+
+.menu span a:hover, .menu a:hover {
+    cursor: pointer;
+    color: orange;
+    border-bottom: 1px solid orange;
+}
+
+.header {
+    background-color: #000000;
+    color:white;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    z-index: 1;
+}
+ .content {
+     position: relative;
+     background-color:orange;
+     top: 160px;
+     margin: 0 40px 180px 40px;
+     padding: 10px 20px;
+     text-align: justify;
+ }
+
+ .footer {
+     position: relative;
+     display: flex;
+     justify-content: center;
+     background-color: grey;
+     width: 100%;
+     flex-direction: column;
+     padding: 20px 0 20px 0;
+     bottom: 0;
+     background-image: linear-gradient(black, white);
+ }
+
+ .footer-text {
+     text-align: center;
+     color: white;
+ }
+
+ .footer-imgs {
+     display: flex;
+     justify-content: center;
+     margin-top: 20px;
+ }
+
+ .footer-imgs div {
+     width: 20px;
+     height: 20px;
+     margin: 10px 20px;
+ }
+
+ .footer-imgs div img:hover {
+     box-shadow: 0 0 30px purple;
+ }
+
+ .footer-imgs div img {
+     width: 100%;
+     height: 100%;
+     margin: auto;
+     border-radius: 20px;
+ }
+
+ .fa-envelope {
+     margin: 7px 0 0 7px;
+ }
